@@ -44,7 +44,7 @@
         ".header__heading .h2 {color: #000; font-weight: bold; letter-spacing: 4px; text-transform: uppercase;}"
       ],
       "settings": {
-        "logo_position": "middle-left",
+        "logo_position": "middle-center",
         "mobile_logo_position": "center",
         "menu": "main-menu",
         "menu_type_desktop": "dropdown",
