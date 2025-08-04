@@ -78,6 +78,7 @@
                 >
                   {%- if block.settings.heading != blank -%}
                     <h2 class="footer-block__heading inline-richtext">{{- block.settings.heading -}}</h2>
+                    <span class="accordion-icon">+</span>
                   {%- endif -%}
 
                   {%- case block.type -%}
@@ -333,6 +334,21 @@
     </div>
   </div>
 </footer>
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const toggles = document.querySelectorAll(".footer-block__heading");
+
+    toggles.forEach((toggle) => {
+      toggle.addEventListener("click", () => {
+        const content = toggle.nextElementSibling;
+        const icon = toggle.querySelector(".accordion-icon");
+
+        content.classList.toggle("hidden");
+        icon.textContent = content.classList.contains("hidden") ? "+" : "−";
+      });
+    });
+  });
+</script>
 
 {% schema %}
 {
