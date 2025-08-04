@@ -955,10 +955,6 @@ summary::-webkit-details-marker {
     width: calc(33.33% - var(--grid-desktop-horizontal-spacing) * 2 / 3);
   }
 
-  .grid--3-col-tablet .grid__item-2 {
-    width: calc((33.33% - var(--grid-desktop-horizontal-spacing) * 2 / 3) * 2);
-  }
-
   .grid--2-col-tablet .grid__item {
     width: calc(50% - var(--grid-desktop-horizontal-spacing) / 2);
   }
@@ -1016,6 +1012,16 @@ summary::-webkit-details-marker {
   .grid--2-col-desktop .grid__item {
     width: calc(50% - var(--grid-desktop-horizontal-spacing) / 2);
     max-width: calc(50% - var(--grid-desktop-horizontal-spacing) / 2);
+  }
+
+  .footer__content-top .footer__content-top-right {
+    width: calc(33.33% - var(--grid-desktop-horizontal-spacing) * 2 / 3);
+    max-width: calc(33.33% - var(--grid-desktop-horizontal-spacing) * 2 / 3);
+  }
+
+  .footer__content-top .footer__content-top-right {
+    width: calc((33.33% - var(--grid-desktop-horizontal-spacing) * 2 / 3) * 2);
+    max-width: calc((33.33% - var(--grid-desktop-horizontal-spacing) * 2 / 3) * 2);
   }
 
   .slider.slider--desktop .scroll-trigger.animate--slide-in {
