@@ -334,7 +334,10 @@
   }
 }
 
-.footer-block__details-content .list-menu__item--link,
+.footer-block__details-content .list-menu__item--link {
+  color: rgba(var(--color-foreground), 1);
+}
+
 .copyright__content a {
   color: rgba(var(--color-foreground), 0.75);
 }
