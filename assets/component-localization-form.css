@@ -122,6 +122,10 @@
   gap: 10px;
 }
 
+.disclosure .localization-form__select:after {
+  content: none;
+}
+
 .disclosure__button {
   align-items: center;
   cursor: pointer;
