@@ -1042,6 +1042,11 @@ summary::-webkit-details-marker {
   row-gap: 15px;
 }
 
+.footer__content-top-right span {
+  font-size: 25px;
+  font-weight: bold;
+}
+
 @media screen and (min-width: 990px) {
   .grid--1-col-desktop {
     flex: 0 0 100%;
