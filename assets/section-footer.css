@@ -506,6 +506,10 @@
   }
 }
 
+.icon-logo {
+  fill: #FFF;
+}
+
 .social {
   display: flex;
   gap: 10px;
