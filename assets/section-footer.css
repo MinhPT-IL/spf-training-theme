@@ -525,3 +525,7 @@
   fill: #FFF;
   width: 30px;
 }
+
+.footer-bottom-left {
+  flex: 1;
+}
