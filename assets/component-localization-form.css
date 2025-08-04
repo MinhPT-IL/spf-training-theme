@@ -109,6 +109,7 @@
 }
 
 .disclosure {
+  display: flex;
   position: relative;
 }
 
