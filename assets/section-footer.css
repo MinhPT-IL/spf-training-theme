@@ -505,3 +505,12 @@
     }
   }
 }
+
+.social {
+  display: flex;
+  gap: 10px;
+}
+
+.social .icon {
+  width: 20px;
+}
