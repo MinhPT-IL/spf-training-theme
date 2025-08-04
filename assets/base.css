@@ -1035,6 +1035,13 @@ summary::-webkit-details-marker {
   }
 }
 
+.footer__content-top-right {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
 @media screen and (min-width: 990px) {
   .grid--1-col-desktop {
     flex: 0 0 100%;
