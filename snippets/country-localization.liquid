@@ -26,10 +26,14 @@
 %}
 
 <div class="disclosure">
-  <span class="currency">
-    {{ localization.country.currency.iso_code }}
-    {{ localization.country.currency.symbol -}}
-  </span>
+  <div class="currency-wrapper">
+    <span class="currency-symbol">
+      {{ localization.country.currency.symbol }}
+    </span>
+    <span class="currency-code">
+      {{ localization.country.currency.iso_code }}
+    </span>
+  </div>
   <button
     type="button"
     class="disclosure__button localization-form__select localization-selector link link--text caption-large"
