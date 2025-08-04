@@ -1019,7 +1019,7 @@ summary::-webkit-details-marker {
     max-width: calc(33.33% - var(--grid-desktop-horizontal-spacing) * 2 / 3);
   }
 
-  .footer__content-top .footer__content-top-right {
+  .footer__content-top .footer__content-top-left {
     width: calc((33.33% - var(--grid-desktop-horizontal-spacing) * 2 / 3) * 2);
     max-width: calc((33.33% - var(--grid-desktop-horizontal-spacing) * 2 / 3) * 2);
   }
