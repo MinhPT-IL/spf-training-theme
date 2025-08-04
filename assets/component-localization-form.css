@@ -110,13 +110,15 @@
 
 .disclosure {
   display: flex;
-  align-items: flex-start;
+  align-items: center;
+  gap: 20px;
   position: relative;
 }
 
 .disclosure .currency-wrapper {
   display: flex;
   align-items: center;
+  gap: 10px;
 }
 
 .disclosure__button {
