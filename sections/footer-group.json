@@ -53,7 +53,9 @@
       "block_order": [
         "footer-0",
         "footer-1",
-        "footer-2"
+        "footer-2",
+        "footer-3",
+        "footer-4"
       ],
       "settings": {
         "color_scheme": "scheme-1",
