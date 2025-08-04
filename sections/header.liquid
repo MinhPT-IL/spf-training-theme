@@ -75,8 +75,14 @@
     }
   }
 
-  @media screen and (max-width: 480px) {
+  @media screen and (max-width: 479px) {
     .header__icon--account span {
+      display: none;
+    }
+  }
+
+  @media screen and (min-width: 480px) {
+    .header__icon--account account-icon {
       display: none;
     }
   }
