@@ -76,7 +76,7 @@
   }
 
   @media screen and (max-width: 479px) {
-    .header__icon--account span {
+    .header__icon--account span.login-text {
       display: none;
     }
   }
@@ -265,7 +265,7 @@
                 <span class="svg-wrapper">{{ 'icon-account.svg' | inline_asset_content }}</span>
               {%- endif -%}
             </account-icon>
-            <span>LOG IN</span>
+            <span class="login-text">LOG IN</span>
           {%- else -%}
             <span class="svg-wrapper">{{ 'icon-account.svg' | inline_asset_content }}</span>
           {%- endif -%}
