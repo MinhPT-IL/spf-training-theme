@@ -832,10 +832,6 @@ summary::-webkit-details-marker {
     padding-left: 0;
     padding-right: 0;
   }
-
-  .footer-block__heading {
-    display: none;
-  }
 }
 
 .title-wrapper-with-link .link-with-icon {
