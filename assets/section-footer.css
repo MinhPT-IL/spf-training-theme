@@ -281,6 +281,7 @@
 
 @media screen and (min-width: 750px) {
   .footer__payment {
+    align-self: flex-start;
     margin-top: 1.5rem;
   }
 }
