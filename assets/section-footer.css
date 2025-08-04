@@ -530,3 +530,37 @@
 .footer-bottom-left {
   flex: 1 1 0%;
 }
+
+@media (max-width: 767px) {
+  .footer-block--menu ul {
+    padding-left: 1rem;
+  }
+
+  .footer-block__details-content.hidden {
+    display: none;
+  }
+
+  .footer-block__heading {
+    width: 100%;
+    text-align: left;
+    font-weight: bold;
+    background: none;
+    border: none;
+    padding: 0.75rem 0;
+    font-size: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+
+@media (min-width: 768px) {
+  .footer-block__heading,
+  .accordion-icon {
+    display: none !important;
+  }
+
+  .footer-block__details-content {
+    display: block !important;
+  }
+}
