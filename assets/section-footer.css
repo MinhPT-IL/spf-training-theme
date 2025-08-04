@@ -445,11 +445,12 @@
 }
 
 .copyright__content {
+  color: #FFF;
   font-size: 1.5rem;
 }
 
 .copyright__content a {
-  color: #FFF;
+  color: currentColor;
   text-decoration: none;
 }
 
