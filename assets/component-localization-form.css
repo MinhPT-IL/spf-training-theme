@@ -113,6 +113,10 @@
   position: relative;
 }
 
+.disclosure .currency-wrapper {
+  display: flex;
+}
+
 .disclosure__button {
   align-items: center;
   cursor: pointer;
