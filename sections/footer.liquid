@@ -68,7 +68,7 @@
               {% endif %}
             >
               {%- for block in section.blocks -%}
-                {%- if block.index < section.blocks.size -%}
+                {%- unless forloop.last -%}
                   <div
                     class="footer-block grid__item{% if block.type == 'link_list' %} footer-block--menu{% endif %}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
                     {{ block.shopify_attributes }}
@@ -157,7 +157,7 @@
                         </div>
                     {%- endcase -%}
                   </div>
-                {%- endif -%}
+                {%- endunless -%}
               {%- endfor -%}
             </div>
           {%- endif -%}
