@@ -270,6 +270,7 @@
 
 @media screen and (min-width: 750px) {
   .footer__localization {
+    flex: 1 1 0%;
     padding: 0.4rem 0;
     justify-content: flex-end;
   }
@@ -527,5 +528,5 @@
 }
 
 .footer-bottom-left {
-  width: 50%;
+  flex: 1 1 0%;
 }
