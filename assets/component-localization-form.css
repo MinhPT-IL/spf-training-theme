@@ -110,6 +110,7 @@
 
 .disclosure {
   display: flex;
+  font-weight: bold;
   align-items: center;
   gap: 20px;
   position: relative;
