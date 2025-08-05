@@ -21,7 +21,7 @@
       "type": "custom-collection-info",
       "settings": {
         "section_title": "Collection Heading",
-        "collection_info": "Extra details about this collection."
+        "collection_info": "Extra details about this collection.\n(Added when doing SPF training homework)"
       }
     },
     "product-grid": {
