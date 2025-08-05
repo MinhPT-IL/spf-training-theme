@@ -77,6 +77,7 @@
 
   .footer__content-bottom.scroll-trigger.animate--slide-in {
     animation: none;
+    border-top: none;
     opacity: 1;
     transform: inherit;
   }
