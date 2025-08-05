@@ -308,6 +308,10 @@
   .country-filter {
     padding: 1.5rem 2rem 0.6rem 1.5rem;
   }
+
+  .localization-form:only-child .localization-form__select {
+    margin: 0;
+  }
 }
 
 @media screen and (min-width: 750px) {
