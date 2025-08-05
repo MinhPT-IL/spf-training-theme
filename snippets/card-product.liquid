@@ -287,9 +287,9 @@
               {% endif %}
             {%- endif -%}
           </div>
-            {% if product.variants.size > 1 %}
+            {% if card_product.variants.size > 1 %}
               <ul class="variant-list">
-                {% for variant in product.variants %}
+                {% for variant in card_product.variants %}
                   <li>
                     {{ variant.title }} — {{ variant.price | money }}
                   </li>
