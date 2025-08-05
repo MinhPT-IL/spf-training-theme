@@ -13,6 +13,8 @@
 @media screen and (max-width: 749px) {
   .footer .grid {
     display: block;
+    margin-bottom: 0;
+    padding-bottom: 0;
   }
 
   .footer-block.grid__item {
@@ -569,7 +571,7 @@
   }
 
   .footer__content-top-right {
-    margin-top: 2rem;
+    margin-top: 5rem;
   }
 }
 
