@@ -1,0 +1,40 @@
+<div class="custom-collection-section" style="padding: 2rem; background-color: #f8f8f8;">
+  {% if section.settings.section_title != blank %}
+    <h2 style="font-size: 1.5rem; font-weight: bold;">{{ section.settings.section_title }}</h2>
+  {% endif %}
+
+  <p style="margin: 1rem 0; font-style: italic;">
+    The new <strong>{{ collection.title }}</strong> is out now!
+  </p>
+
+  {% if section.settings.collection_info != blank %}
+    <div style="white-space: pre-line; background: #fff; padding: 1rem; border-radius: 8px; border: 1px solid #ddd;">
+      {{ section.settings.collection_info }}
+    </div>
+  {% endif %}
+</div>
+
+{% schema %}
+{
+  "name": "Custom Collection Info",
+  "settings": [
+    {
+      "type": "text",
+      "id": "section_title",
+      "label": "Section Title",
+      "default": "Collection Spotlight"
+    },
+    {
+      "type": "textarea",
+      "id": "collection_info",
+      "label": "Additional Collection Information",
+      "default": "Here you can provide extra details about this collection."
+    }
+  ],
+  "presets": [
+    {
+      "name": "Custom Collection Info"
+    }
+  ]
+}
+{% endschema %}
