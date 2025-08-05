@@ -26,6 +26,10 @@
     margin-top: 0;
   }
 
+  .footer-block.grid__item::last-child {
+    border-bottom: none;
+  }
+
   .footer__content-top {
     padding-bottom: 3rem;
     padding-left: calc(4rem / var(--font-body-scale));
@@ -563,9 +567,13 @@
   .mobile-hidden {
     display: none;
   }
+
+  .footer__content-top-right {
+
+  }
 }
 
-@media (min-width: 768px) {
+@media (min-width: 750px) {
   .footer-block__heading,
   .accordion-icon {
     display: none !important;
