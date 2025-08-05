@@ -250,6 +250,11 @@
 }
 
 @media screen and (max-width: 749px) {
+  .disclosure {
+    flex-direction: column;
+    gap: 0;
+  }
+
   .disclosure__list-wrapper.country-selector:not([hidden]) + .country-selector__overlay:empty {
     display: block;
   }
