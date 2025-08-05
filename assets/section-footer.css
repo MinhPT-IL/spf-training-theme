@@ -539,7 +539,7 @@
   flex: 1 1 0%;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 749px) {
   .footer-block--menu ul {
     padding-left: 1rem;
   }
@@ -553,6 +553,11 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-bottom: 1rem;
+  }
+
+  .footer-block__details-content {
+    margin-bottom: 2rem;
   }
 
   .mobile-hidden {
