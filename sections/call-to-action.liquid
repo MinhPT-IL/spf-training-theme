@@ -1,0 +1,45 @@
+<section class="call-to-action-section">
+  <div class="page-width">
+    {% if section.settings.section_title != blank %}
+      <h2 class="cta-heading">{{ section.settings.section_title }}</h2>
+    {% endif %}
+
+    {% if collection %}
+      <h3 class="collection-heading">
+        The {{ collection.title }} is out now!
+      </h3>
+    {% endif %}
+
+    {% if section.settings.preorder_text != blank %}
+      <div class="preorder-message">
+        <p>{{ section.settings.preorder_text }}</p>
+      </div>
+    {% endif %}
+  </div>
+</section>
+
+{% schema %}
+{
+  "name": "Call to Action",
+  "tag": "section",
+  "settings": [
+    {
+      "type": "text",
+      "id": "section_title",
+      "label": "Section title",
+      "default": "Pre-order now!"
+    },
+    {
+      "type": "textarea",
+      "id": "preorder_text",
+      "label": "Pre-order information",
+      "default": "Enter text here"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Call to Action"
+    }
+  ]
+}
+{% endschema %}
