@@ -286,6 +286,7 @@
                 </quantity-popover>
               {% endif %}
             {%- endif -%}
+          </div>
             {% if product.variants.size > 1 %}
               <ul class="variant-list">
                 {% for variant in product.variants %}
@@ -295,7 +296,6 @@
                 {% endfor %}
               </ul>
             {% endif %}
-          </div>
         </div>
         {% assign product_form_id = 'quick-add-' | append: section_id | append: card_product.id %}
         {% if quick_add == 'standard' %}
