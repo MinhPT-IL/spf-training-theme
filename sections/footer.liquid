@@ -92,7 +92,7 @@
                       </div>
                     {%- when 'link_list' -%}
                       {%- if block.settings.menu != blank -%}
-                        <ul class="footer-block__details-content list-unstyled">
+                        <ul class="footer-block__details-content list-unstyled mobile-hidden">
                           {%- for link in block.settings.menu.links -%}
                             <li>
                               <a
@@ -345,7 +345,7 @@
         const content = toggle.nextElementSibling;
         const icon = toggle.querySelector(".accordion-icon");
 
-        content.classList.toggle("hidden");
+        content.classList.toggle("mobile-hidden");
         icon.textContent = content.classList.contains("hidden") ? "+" : "−";
       });
     });
