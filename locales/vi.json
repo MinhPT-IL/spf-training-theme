@@ -580,5 +580,32 @@
       "signup_form_success": "We will send you an email right before we open!",
       "password_link": "Enter using password"
     }
+  },
+  "shopify": {
+    "checkout": {
+      "payment": {
+        "crypto_modal": {
+          "error": {
+            "refresh": "Làm cho khỏe lại",
+            "close": "đóng",
+            "sandbox_error": "Có gì đó không ổn",
+            "web_component_error": "Đã có sự cố khi tải trang này"
+          }
+        },
+        "bank_account_type": {
+          "checking": "Kiểm tra",
+          "savings": "Tiết kiệm"
+        },
+        "bank_account_choose": "Chọn một tài khoản để hoàn tất giao dịch mua hàng của bạn một cách an toàn",
+        "bank_account_connect_another": "Kết nối một tài khoản ngân hàng khác",
+        "bank_account_connect": "Kết nối tài khoản ngân hàng"
+      },
+      "thank_you": {
+        "thank_you_item_label": {
+          "one": "%{count} mục",
+          "other": "%{count} mục"
+        }
+      }
+    }
   }
 }
