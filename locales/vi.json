@@ -606,6 +606,17 @@
           "other": "%{count} mục"
         }
       }
+    },
+    "collections": {
+      "sorting": {
+        "best_selling": "Bán chạy",
+        "az": "Tên sản phẩm (từ A-Z)",
+        "za": "Tên sản phẩm (từ Z-A)",
+        "price_ascending": "Giá thấp nhất",
+        "price_descending": "Giá cao nhất",
+        "date_ascending": "Cũ nhất",
+        "date_descending": "Mới nhất"
+      }
     }
   }
 }
